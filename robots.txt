@@ -1,0 +1,14 @@
+# robots.txt for Vaultify
+
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config/
+Disallow: /*.bak$
+Disallow: /*.log$
+Disallow: /*.ini$
+Disallow: /*.sh$
+Disallow: /*.config$
+
+# Autoriser tout le reste
+Allow: /
